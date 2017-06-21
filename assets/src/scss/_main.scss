@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    font-size: $font-size-base;
+}
+body, section, .container, .container-fluid, .row {
+    position: relative;
+}
+body {
+    display: flex;
+    height: 100%;
+    font-size: 1rem;
+    color: $gray-dark;
+    -webkit-font-smoothing: antialiased;
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures contextual;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+}
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    &-fluid {
+        width: 100%;
+    }
+}
+footer {
+    width: 100%;
+    align-self: flex-end;
+}

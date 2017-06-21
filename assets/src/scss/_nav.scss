@@ -1,0 +1,38 @@
+.site-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.main-nav {
+    &__items {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    &__item {
+        position: relative;
+        font-size: 1.25rem;
+        &:hover {
+            .main-nav {
+                &__icon {
+                    opacity: 0;
+                }
+                &__title {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.2s 0.1s;
+        transition: 0.2s;
+    }
+    &__title {
+        opacity: 0;
+        transition: 0.2s;
+    }
+}
