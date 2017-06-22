@@ -35,3 +35,7 @@ $breakpoints: xs sm md lg xl;
 @for $i from 1 through 12 {
     @include paddingClasses($i, $breakpoints);
 }
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}

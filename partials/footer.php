@@ -1,12 +1,12 @@
-<section id="contact" class="contact">
+<section class="contact vp-xs-top-6">
 
 </section>
 <section class="colophon">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 text-center vp-xs-top-1 vp-xs-bottom-1">
+            <div class="col-xs-12 vp-xs-top-1 vp-xs-bottom-1">
                 <?php $now = new DateTime("now", new DateTimeZone("UTC")); ?>
-                <p>&copy; Nick Davidson <?php echo $now->format("Y"); ?></p>
+                <p class="mb-0">&copy; Nick Davidson <?php echo $now->format("Y"); ?></p>
             </div>
         </div>
     </div>

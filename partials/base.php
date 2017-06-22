@@ -8,7 +8,7 @@
         <main class="site-main">
             <?php include("partials/main.php"); ?>
         </main>
-        <footer class="site-footer">
+        <footer class="site-footer bg-gray">
             <?php include("partials/footer.php"); ?>
         </footer>
     </body>

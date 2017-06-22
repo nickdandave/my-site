@@ -20,6 +20,9 @@
     &-white {
         color: $white;
     }
+    &-blue {
+        color: $blue;
+    }
 }
 
 %pos-abs-full {
@@ -42,6 +45,14 @@
         color: $gray-dark;
         background-color: $white;
     }
+    &-black {
+        color: $white;
+        background-color: $black;
+    }
+    &-gray {
+        color: $white;
+        background-color: $gray-dark;
+    }
     &-img {
         @extend %pos-abs-full;
         background-position: center;
@@ -56,5 +67,14 @@
             @extend %pos-abs-full;
             background-color: fade-out($gray-dark, 0.8);
         }
+    }
+}
+
+.height {
+    &-100 {
+        height: 100%;
+    }
+    &-full {
+        height: 100vh;
     }
 }

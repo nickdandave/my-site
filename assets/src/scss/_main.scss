@@ -6,7 +6,6 @@ body, section, .container, .container-fluid, .row {
     position: relative;
 }
 body {
-    display: flex;
     height: 100%;
     font-size: 1rem;
     color: $gray-dark;
@@ -26,7 +25,40 @@ body {
         width: 100%;
     }
 }
+main {
+    z-index: 1;
+}
 footer {
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
     width: 100%;
-    align-self: flex-end;
+}
+.intro {
+    &__background {
+        opacity: 0;
+    }
+}
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1rem);
+    z-index: 1;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 25px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: 0.1s;
+    &__toggle {
+        position: relative;
+        text-decoration: dotted underline;
+        cursor: help;
+        &:hover {
+            .tooltip {
+                opacity: 1;
+            }
+        }
+    }
 }

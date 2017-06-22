@@ -19,6 +19,16 @@
                     $("html, body").animate({ scrollTop: targetOffset });
                 });
             }
+        },
+        spaceFooter: {
+            test: function test() {
+                return true;
+            },
+            run: function run() {
+                var footerHt = $("footer").height();
+
+                $("#contact").height(footerHt);
+            }
         }
     };
 
