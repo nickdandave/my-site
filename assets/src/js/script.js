@@ -23,7 +23,13 @@
                 return true;
             },
             run() {
-                const footerHt = $("footer").height();
+                ndd.spaceFooter.makeSpace();
+                $(window).on("resize", function() {
+                    ndd.spaceFooter.makeSpace();
+                });
+            },
+            makeSpace() {
+                let footerHt = $("footer").height();
 
                 $("#contact").height(footerHt);
             }

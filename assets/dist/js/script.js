@@ -25,6 +25,12 @@
                 return true;
             },
             run: function run() {
+                ndd.spaceFooter.makeSpace();
+                $(window).on("resize", function () {
+                    ndd.spaceFooter.makeSpace();
+                });
+            },
+            makeSpace: function makeSpace() {
                 var footerHt = $("footer").height();
 
                 $("#contact").height(footerHt);

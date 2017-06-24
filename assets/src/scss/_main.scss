@@ -34,11 +34,6 @@ footer {
     z-index: -1;
     width: 100%;
 }
-.intro {
-    &__background {
-        opacity: 0;
-    }
-}
 .tooltip {
     position: absolute;
     top: 50%;
@@ -59,6 +54,33 @@ footer {
             .tooltip {
                 opacity: 1;
             }
+        }
+    }
+}
+.footer-window {
+    pointer-events: none;
+}
+.contact {
+    &__links {
+        text-align: left;
+        @include breakpoint(lg) {
+            text-align: center;
+        }
+    }
+    &__linkedin, &__github {
+        .fa {
+            font-size: 1.5rem;
+        }
+    }
+    &__linkedin {
+        margin-right: 32px;
+        &:hover {
+            color: #0077b5;
+        }
+    }
+    &__github {
+        &:hover {
+            color: #4078c0;
         }
     }
 }
