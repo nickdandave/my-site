@@ -65,8 +65,13 @@
     &-overlay {
         &::after {
             @extend %pos-abs-full;
-            background-color: fade-out($gray-dark, 0.2);
             content: "";
+        }
+        &--dark::after {
+            background-color: fade-out($gray-dark, 0.2);
+        }
+        &--light::after {
+            background-color: fade-out($gray-dark, 0.8);
         }
     }
 }

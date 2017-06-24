@@ -1,4 +1,4 @@
-<div class="bg-img bg-overlay" style="background-image: url('/assets/dist/img/overlooking-signal-mountain.jpg');"></div>
+<div class="bg-img bg-overlay bg-overlay--dark" style="background-image: url('/assets/dist/img/overlooking-signal-mountain.jpg');"></div>
 <section class="contact vp-xs-top-6 vp-xs-bottom-6">
     <div class="container">
         <div class="row">

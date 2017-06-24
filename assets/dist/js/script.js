@@ -35,6 +35,27 @@
 
                 $("#contact").height(footerHt);
             }
+        },
+        fadeInGrid: {
+            test: function test() {
+                return true;
+            },
+            run: function run() {
+                var $window = $(window),
+                    $document = $(document),
+                    workOffset = $("#work").offset().top,
+                    aboutOffset = $("#about").offset().top;
+                $window.on("scroll", function () {
+                    var scrollPos = $document.scrollTop();
+
+                    if (scrollPos >= workOffset && !$(".portfolio__grid").hasClass("shown")) {
+                        $(".portfolio__grid").addClass("shown");
+                    }
+                    if (scrollPos >= aboutOffset && !$(".background__image").hasClass("shown")) {
+                        $(".background__image").addClass("shown");
+                    }
+                });
+            }
         }
     };
 

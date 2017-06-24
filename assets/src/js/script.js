@@ -33,6 +33,27 @@
 
                 $("#contact").height(footerHt);
             }
+        },
+        fadeInGrid: {
+            test() {
+                return true;
+            },
+            run() {
+                const $window = $(window),
+                      $document = $(document),
+                      workOffset = $("#work").offset().top,
+                      aboutOffset = $("#about").offset().top;
+                $window.on("scroll", function() {
+                    let scrollPos = $document.scrollTop();
+
+                    if (scrollPos >= workOffset && !$(".portfolio__grid").hasClass("shown")) {
+                        $(".portfolio__grid").addClass("shown");
+                    }
+                    if (scrollPos >= aboutOffset && !$(".background__image").hasClass("shown")) {
+                        $(".background__image").addClass("shown");
+                    }
+                });
+            }
         }
     };
 
