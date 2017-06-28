@@ -23,7 +23,9 @@
     </script>
 
     <?php if ($_COOKIE['csscached']) : ?>
-        <?php include("assets/dist/css/critical.css"); ?>
+        <style>
+            <?php include("assets/dist/css/critical.css"); ?>
+        </style>
         <script>
             loadCSS("//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css");
             loadCSS("/assets/dist/css/app.min.css");
