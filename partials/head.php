@@ -20,23 +20,22 @@
     <script>
         loadCSS("https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i|Source+Sans+Pro:400,600,700");
         loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+        var flexGridLoaded = new Event("flexGridLoaded");
+        var mainStylesLoaded = new Event("mainStylesLoaded");
+
+        document.addEventListener("flexGridLoaded", function() {
+            document.body.classList.add("flex-grid-loaded");
+        });
+        document.addEventListener("mainStylesLoaded", function() {
+            document.body.classList.add("main-styles-loaded");
+        });
     </script>
 
     <?php if ($_COOKIE['csscached']) : ?>
         <style>
             <?php include("assets/dist/css/critical.css"); ?>
         </style>
-        <script>
-            var flexGridLoaded = new Event("flexGridLoaded");
-            var mainStylesLoaded = new Event("mainStylesLoaded");
-
-            document.addEventListener("flexGridLoaded", function() {
-                document.body.classList.add("flex-grid-loaded");
-            });
-            document.addEventListener("mainStylesLoaded", function() {
-                document.body.classList.add("main-styles-loaded");
-            });
-        </script>
         <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css" as="style" onload="this.rel='stylesheet';document.dispatchEvent('flexGridLoaded')">
         <link rel="preload" href="/assets/dist/css/app.min.css" as="style" onload="this.rel='stylesheet';document.dispatchEvent('mainStylesLoaded')">
         <noscript>
