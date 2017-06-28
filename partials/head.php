@@ -26,7 +26,7 @@
         <style>
             <?php include("assets/dist/css/critical.css"); ?>
         </style>
-        <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css" as="style" onload="this.rel='stylesheet'">
+        <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css" as="style" onload="this.rel='stylesheet';console.log('flex loaded')">
         <link rel="preload" href="/assets/dist/css/app.min.css" as="style" onload="this.rel='stylesheet'">
         <noscript>
             <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
