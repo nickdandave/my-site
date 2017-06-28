@@ -80,6 +80,9 @@ footer {
             position: relative;
             height: 0;
             padding-bottom: 56.25%;
+            &-container {
+                padding: 1rem 1.5rem !important;
+            }
         }
         &--info {
             padding: 2rem 1.5rem 1rem;

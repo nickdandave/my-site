@@ -49,3 +49,8 @@ $breakpoints: xs sm md lg xl;
 .mb-0 {
     margin-bottom: 0 !important;
 }
+
+.no-gutter {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}

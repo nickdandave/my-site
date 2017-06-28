@@ -16,12 +16,23 @@
     <meta name="twitter:description" content="Web Developer in Chattanooga, TN">
     <meta name="twitter:image" content="/assets/dist/img/horn-by-building.jpg">
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
-    <link rel="stylesheet" href="/assets/dist/css/app.min.css">
-
     <?php include("partials/loadcss.php"); ?>
     <script>
         loadCSS("https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i|Source+Sans+Pro:400,600,700");
         loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
     </script>
+
+    <?php if ($_COOKIE['csscached']) : ?>
+        <?php include("assets/dist/css/critical.css"); ?>
+        <script>
+            loadCSS("//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css");
+            loadCSS("/assets/dist/css/app.min.css");
+        </script>
+    <?php else : ?>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
+        <link rel="stylesheet" href="/assets/dist/css/app.min.css">
+        <script>
+            document.cookie = "csscached=Yes; expires=Thu, 18 Dec 2030 12:00:00 UTC"
+        </script>
+    <?php endif; ?>
 </head>

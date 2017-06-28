@@ -1088,6 +1088,10 @@ table {
 .mb-0 {
   margin-bottom: 0 !important; }
 
+.no-gutter {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600; }
@@ -1371,6 +1375,8 @@ footer {
     position: relative;
     height: 0;
     padding-bottom: 56.25%; }
+    .portfolio__card--image-container {
+      padding: 1rem 1.5rem !important; }
   .portfolio__card--info {
     padding: 2rem 1.5rem 1rem; }
 

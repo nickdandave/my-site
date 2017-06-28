@@ -7,6 +7,32 @@ var autoprefixer = require('gulp-autoprefixer');
 var babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+var request = require('request');
+var path = require( 'path' );
+var criticalcss = require("criticalcss");
+var fs = require('fs');
+var tmpDir = require('os').tmpdir();
+
+gulp.task('criticalcss', function() {
+    var cssUrl = 'https://young-retreat-83841.herokuapp.com/assets/dist/css/app.min.css';
+    var cssPath = path.join( tmpDir, 'critical.css' );
+    request(cssUrl).pipe(fs.createWriteStream(cssPath)).on('close', function() {
+        criticalcss.getRules(cssPath, function(err, output) {
+            if (err) {
+                throw new Error(err);
+            } else {
+                criticalcss.findCritical("https://young-retreat-83841.herokuapp.com", { rules: JSON.parse(output) }, function(err, output) {
+                    if (err) {
+                        throw new Error(err);
+                    } else {
+                        // console.log(cssPath);
+                        fs.writeFileSync('./assets/dist/css/critical.css', output);
+                    }
+                });
+            }
+        });
+    });
+});
 
 gulp.task('sass', function() {
     return gulp.src('./assets/src/scss/app.scss')
