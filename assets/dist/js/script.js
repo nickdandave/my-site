@@ -4,6 +4,15 @@
     "use strict";
 
     var ndd = {
+        fadeInHero: {
+            test: function test() {
+                return true;
+            },
+            run: function run() {
+                document.dispatchEvent(flexGridLoaded);
+                document.dispatchEvent(mainStylesLoaded);
+            }
+        },
         scrollToSection: {
             test: function test() {
                 return true;
