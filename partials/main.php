@@ -20,43 +20,43 @@
                 array(
                     'title' => 'Food for the Hungry',
                     'link' => 'https://www.fh.org/',
-                    'image' => '/assets/dist/img/fh.png',
+                    'image' => '/assets/dist/img/fh.jpg',
                     'description' => 'Food for the Hungry is working to end poverty and supports children worldwide with the help of donor gifts and child sponsorships.'
                 ),
                 array(
                     'title' => 'Last Mile Health',
                     'link' => 'http://lastmilehealth.org/chacademy/',
-                    'image' => '/assets/dist/img/lmh.png',
+                    'image' => '/assets/dist/img/lmh.jpg',
                     'description' => 'Last Mile Health provides both access to healthcare and training to community health workers in remote parts of the world where people are most vulnerable to diseases like Ebola. In recognition and support of their efforts, founder Raj Panjabi won the 2017 TED Prize.'
                 ),
                 array(
                     'title' => 'Airbus Aerial',
                     'link' => 'https://airbusaerial.com/',
-                    'image' => '/assets/dist/img/airbusaerial.png',
+                    'image' => '/assets/dist/img/airbusaerial.jpg',
                     'description' => 'Airbus Aerial is a new venture by Airbus that is leveraging aerospace technology from across the globe to offer actionable data and analysis to its partners.'
                 ),
                 array(
                     'title' => 'Whiteboard',
                     'link' => 'http://whiteboard.is/insights/black-dot-focus-overcoming-three-causes-error/',
-                    'image' => '/assets/dist/img/whiteboard.png',
+                    'image' => '/assets/dist/img/whiteboard.jpg',
                     'description' => 'Whiteboard is a design and development firm who is &ldquo;helping organizations thrive in our digital age.&rdquo;'
                 ),
                 array(
                     'title' => 'WinShape Camps',
                     'link' => 'http://camps.winshape.org/',
-                    'image' => '/assets/dist/img/wsc.png',
+                    'image' => '/assets/dist/img/wsc.jpg',
                     'description' => 'A division of the WinShape Foundation, a charitable organization established by Chick-fil-A&rsquo;s founders, WinShape Camps brings kids together for the &ldquo;summer of a lifetime.&rdquo;'
                 ),
                 array(
                     'title' => 'Veritas Forum',
                     'link' => 'http://www.veritas.org/',
-                    'image' => '/assets/dist/img/veritas.png',
+                    'image' => '/assets/dist/img/veritas.jpg',
                     'description' => 'The Veritas Forum gathers many of the world&rsquo;s leading religious thinkers to foster conversations about life&rsquo;s hardest questions.'
                 ),
                 array(
                     'title' => 'The Camp House',
                     'link' => 'https://thecamphouse.com/',
-                    'image' => '/assets/dist/img/camphouse.png',
+                    'image' => '/assets/dist/img/camphouse.jpg',
                     'description' => 'The Camp House is not only one of Chattanooga&rsquo;s finest coffee shops, but also an important community meeting place, event venue, and home to The Mission Chattanooga Anglican church.'
                 )
             ); ?>
