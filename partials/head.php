@@ -27,8 +27,8 @@
             <?php include("assets/dist/css/critical.css"); ?>
         </style>
         <script id="loadcss">
-            loadCSS("//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css", document.getElementById("loadcss"));
-            loadCSS("/assets/dist/css/app.min.css");
+            loadCSS("//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css", document.getElementById("loadcss")).then(loadCSS("/assets/dist/css/app.min.css"));
+            // loadCSS("/assets/dist/css/app.min.css");
         </script>
     <?php else : ?>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
