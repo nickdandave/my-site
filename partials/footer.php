@@ -6,13 +6,13 @@
                 <h3>Want to know more?</h3>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <h4 class="vp-xs-bottom-1">Drop me a line.</h4>
+                <h3 class="vp-xs-bottom-1">Drop me a line.</h3>
                 <p>
                     <a href="mailto:nick.dan.davidson@gmail.com" class="inline-link">nick.dan.davidson@gmail.com</a>
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4 vp-xs-top-3 vp-sm-top-0">
-                <h4 class="vp-xs-bottom-1">Or give me a call.</h4>
+                <h3 class="vp-xs-bottom-1">Or give me a call.</h3>
                 <p>
                     <a href="tel:7316086326" class="inline-link">731.608.6326</a>
                 </p>
@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-xs-12 vp-xs-top-1 vp-xs-bottom-1">
                 <?php $now = new DateTime("now", new DateTimeZone("UTC")); ?>
-                <p class="mb-0">&copy; Nick Davidson <?php echo $now->format("Y"); ?></p>
+                <p class="mb-0">&copy; <?php echo $now->format("Y"); ?> Nick Davidson</p>
             </div>
         </div>
     </div>
