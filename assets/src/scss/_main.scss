@@ -27,17 +27,13 @@ body {
 }
 main {
     z-index: 1;
+}
+.intro {
     opacity: 0;
     transition: 0.3s;
     .flex-grid-loaded.main-styles-loaded & {
         opacity: 1;
     }
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    z-index: -1;
-    width: 100%;
 }
 .tooltip {
     position: absolute;
@@ -115,6 +111,12 @@ footer {
 }
 .footer-window {
     pointer-events: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
 }
 .contact {
     &__links {

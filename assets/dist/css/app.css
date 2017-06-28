@@ -1321,18 +1321,14 @@ body {
     width: 100%; }
 
 main {
-  z-index: 1;
+  z-index: 1; }
+
+.intro {
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
-  .flex-grid-loaded.main-styles-loaded main {
+  .flex-grid-loaded.main-styles-loaded .intro {
     opacity: 1; }
-
-footer {
-  position: fixed;
-  bottom: 0;
-  z-index: -1;
-  width: 100%; }
 
 .tooltip {
   position: absolute;
@@ -1405,6 +1401,12 @@ footer {
 
 .footer-window {
   pointer-events: none; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  width: 100%; }
 
 .contact__links {
   text-align: left; }
