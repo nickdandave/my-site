@@ -9,7 +9,7 @@
             run() {
                 // document.dispatchEvent(flexGridLoaded);
                 // document.dispatchEvent(mainStylesLoaded);
-                $(body).addClass("flex-grid-loaded main-styles-loaded");
+                $("body").addClass("flex-grid-loaded main-styles-loaded");
             }
         },
         scrollToSection: {
