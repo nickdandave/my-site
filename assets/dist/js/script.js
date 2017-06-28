@@ -9,8 +9,9 @@
                 return true;
             },
             run: function run() {
-                document.dispatchEvent(flexGridLoaded);
-                document.dispatchEvent(mainStylesLoaded);
+                // document.dispatchEvent(flexGridLoaded);
+                // document.dispatchEvent(mainStylesLoaded);
+                $(body).addClass("flex-grid-loaded main-styles-loaded");
             }
         },
         scrollToSection: {
