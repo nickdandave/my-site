@@ -65,8 +65,10 @@
                     <?php foreach($projects as $project) : ?>
                         <div class="col-xs-12 col-sm-6 vp-xs-bottom-4">
                             <div class="portfolio__card row bg-white">
-                                <div class="portfolio__card--image col-xs-12">
-                                    <div class="bg-img" style="background-image: url('<?php echo $project['image']; ?>')"></div>
+                                <div class="col-xs-12">
+                                    <div class="portfolio__card--image">
+                                        <div class="bg-img" style="background-image: url('<?php echo $project['image']; ?>')"></div>
+                                    </div>
                                 </div>
                                 <div class="portfolio__card--info col-xs-12">
                                     <h5 class="vp-xs-bottom-1"><?php echo $project['title']; ?></h5>
