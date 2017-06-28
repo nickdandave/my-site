@@ -1325,7 +1325,7 @@ main {
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
-  main .flex-grid-loaded.main-styles-loaded {
+  .flex-grid-loaded.main-styles-loaded main {
     opacity: 1; }
 
 footer {
