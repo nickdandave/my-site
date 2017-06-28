@@ -1283,6 +1283,7 @@ a {
       font-size: 1.25rem; }
   .main-nav__title {
     display: inline-block;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 600;
     -webkit-transform: translateX(calc(100% + 2rem));

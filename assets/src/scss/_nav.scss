@@ -61,6 +61,7 @@
     }
     &__title {
         display: inline-block;
+        font-family: $font-sans-serif;
         font-size: 1rem;
         font-weight: 600;
         transform: translateX(calc(100% + 2rem));

@@ -32,10 +32,6 @@
             <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
             <link rel="stylesheet" href="/assets/dist/css/app.min.css">
         </noscript>
-        <!-- <script id="loadcss">
-            loadCSS("//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css", document.getElementById("loadcss"));
-            loadCSS("/assets/dist/css/app.min.css");
-        </script> -->
     <?php else : ?>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
         <link rel="stylesheet" href="/assets/dist/css/app.min.css">
