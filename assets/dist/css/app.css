@@ -1323,11 +1323,11 @@ body {
 main {
   z-index: 1; }
 
-.intro {
+.intro__text {
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
-  .flex-grid-loaded.main-styles-loaded .intro {
+  .flex-grid-loaded.main-styles-loaded .intro__text {
     opacity: 1; }
 
 .tooltip {

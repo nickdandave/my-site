@@ -29,10 +29,12 @@ main {
     z-index: 1;
 }
 .intro {
-    opacity: 0;
-    transition: 0.3s;
-    .flex-grid-loaded.main-styles-loaded & {
-        opacity: 1;
+    &__text {
+        opacity: 0;
+        transition: 0.3s;
+        .flex-grid-loaded.main-styles-loaded & {
+            opacity: 1;
+        }
     }
 }
 .tooltip {
