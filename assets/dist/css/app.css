@@ -1321,7 +1321,12 @@ body {
     width: 100%; }
 
 main {
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  main .flex-grid-loaded.main-styles-loaded {
+    opacity: 1; }
 
 footer {
   position: fixed;
