@@ -36,8 +36,8 @@
         <style>
             <?php include("assets/dist/css/critical.css"); ?>
         </style>
-        <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css" as="style" onload="this.rel='stylesheet';document.dispatchEvent('flexGridLoaded')">
-        <link rel="preload" href="/assets/dist/css/app.min.css" as="style" onload="this.rel='stylesheet';document.dispatchEvent('mainStylesLoaded')">
+        <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css" as="style" onload="this.rel='stylesheet';document.dispatchEvent(flexGridLoaded)">
+        <link rel="preload" href="/assets/dist/css/app.min.css" as="style" onload="this.rel='stylesheet';document.dispatchEvent(mainStylesLoaded)">
         <noscript>
             <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
             <link rel="stylesheet" href="/assets/dist/css/app.min.css">
@@ -46,8 +46,8 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
         <link rel="stylesheet" href="/assets/dist/css/app.min.css">
         <script>
-            document.dispatchEvent('flexGridLoaded');
-            document.dispatchEvent('mainStylesLoaded');
+            document.dispatchEvent(flexGridLoaded);
+            document.dispatchEvent(mainStylesLoaded);
             document.cookie = "csscached=Yes; expires=Thu, 18 Dec 2030 12:00:00 UTC"
         </script>
     <?php endif; ?>
