@@ -32,6 +32,7 @@
             },
             run() {
                 ndd.spaceFooter.makeSpace();
+                
                 $(window).on("resize", function() {
                     ndd.spaceFooter.makeSpace();
                 });
@@ -51,6 +52,7 @@
                       $document = $(document),
                       workOffset = $("#work").offset().top,
                       aboutOffset = $("#about").offset().top;
+
                 $window.on("scroll", function() {
                     let scrollPos = $document.scrollTop();
 
