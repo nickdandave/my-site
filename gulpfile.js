@@ -25,7 +25,6 @@ gulp.task('criticalcss', function() {
                     if (err) {
                         throw new Error(err);
                     } else {
-                        // console.log(cssPath);
                         fs.writeFileSync('./assets/dist/css/critical.css', output);
                     }
                 });

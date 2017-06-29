@@ -62,7 +62,7 @@
             ); ?>
             <div class="portfolio__grid col-xs-12">
                 <div class="row">
-                    <?php foreach($projects as $project) : ?>
+                    <?php foreach ($projects as $project) : ?>
                         <div class="col-xs-12 col-sm-6 vp-xs-bottom-4">
                             <div class="portfolio__card row bg-white">
                                 <div class="portfolio__card--image-container col-xs-12">
@@ -119,7 +119,7 @@
                 <h3 class="vp-xs-bottom-1">...to Gig City</h3>
                 <p>I then joined the technology team as a Front-End Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, a design and development firm based in Chattanooga, TN.</p>
                 <p>Here, I have had the immense pleasure to work with some of the brightest talents in the agency world, serving clients who do meaningful, impactful work in their communities.</p>
-                <p>Outside of programming, you can catch me singing baritone with the <a href="https://www.nashvillesymphony.org/" target="_blank" class="inline-link">Nashville Symphony Orchestra Chorus</a> and <a href="https://www.operatn.org/" target="_blank" class="inline-link">Opera Tennessee</a> here in Chattanooga.</p>
+                <p>Outside of programming, you can catch me singing baritone with the <a href="https://www.nashvillesymphony.org/" target="_blank" class="inline-link">Nashville Symphony Orchestra Chorus</a> and <a href="https://www.operatn.org/" target="_blank" class="inline-link">Opera Tennessee</a> here in Chattanooga. And I still keep my horn chops up as a freelance player and teacher in the Chattanooga area.</p>
             </div>
         </div>
     </div>

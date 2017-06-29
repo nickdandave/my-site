@@ -20,16 +20,6 @@
     <script>
         loadCSS("https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i|Source+Sans+Pro:400,600,700");
         loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
-        // var flexGridLoaded = new Event("flexGridLoaded");
-        // var mainStylesLoaded = new Event("mainStylesLoaded");
-        //
-        // document.addEventListener("flexGridLoaded", function() {
-        //     document.body.classList.add("flex-grid-loaded");
-        // });
-        // document.addEventListener("mainStylesLoaded", function() {
-        //     document.body.classList.add("main-styles-loaded");
-        // });
     </script>
 
     <?php if ($_COOKIE['csscached']) : ?>
@@ -46,8 +36,6 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
         <link rel="stylesheet" href="/assets/dist/css/app.min.css">
         <script>
-            // document.dispatchEvent(flexGridLoaded);
-            // document.dispatchEvent(mainStylesLoaded);
             document.cookie = "csscached=Yes; expires=Thu, 18 Dec 2030 12:00:00 UTC"
         </script>
     <?php endif; ?>
