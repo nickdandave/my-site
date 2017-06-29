@@ -21,7 +21,7 @@ gulp.task('criticalcss', function() {
             if (err) {
                 throw new Error(err);
             } else {
-                criticalcss.findCritical("https://young-retreat-83841.herokuapp.com", { rules: JSON.parse(output) }, function(err, output) {
+                criticalcss.findCritical("http://nickdanieldavidson.com", { rules: JSON.parse(output) }, function(err, output) {
                     if (err) {
                         throw new Error(err);
                     } else {
