@@ -71,8 +71,9 @@ body{ height: 100%; font-size: 1rem; color: rgb(66, 66, 66); -webkit-font-smooth
 .container{ margin-right: auto; margin-left: auto; }
 .container{ width: 90%; max-width: 1200px; }
 main{ z-index: 1; }
-.intro__text{ opacity: 0; transition: 0.3s; -webkit-transition: 0.3s; }
+.intro__text{ position: relative; opacity: 0; transition: 0.3s; -webkit-transition: 0.3s; }
 .flex-grid-loaded.main-styles-loaded .intro__text{ opacity: 1; }
+.intro__text h1, .intro__text h4{ position: relative; z-index: 1; }
 footer{ position: fixed; bottom: 0px; z-index: -1; width: 100%; }
 .contact__links{ text-align: left; }
 @media (min-width: 75em){

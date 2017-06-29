@@ -1,12 +1,12 @@
 <section id="intro" class="intro height-full bg-white">
+    <div class="intro__image--container">
+        <div class="intro__image bg-img" style="background-image: url('/assets/dist/img/horn-by-building.jpg')"></div>
+    </div>
     <div class="container height-100">
         <div class="row middle-xs height-100">
             <div class="intro__text col-xs-12 col-sm-8">
                 <h1 class="vp-xs-bottom-1">Hi, I&rsquo;m Nick.</h1>
                 <h4>Web Developer / classical musician<br>based in Chattanooga, TN</h4>
-                <div class="intro__image--container">
-                    <div class="intro__image bg-img" style="background-image: url('/assets/dist/img/horn-by-building.jpg')"></div>
-                </div>
             </div>
         </div>
     </div>
