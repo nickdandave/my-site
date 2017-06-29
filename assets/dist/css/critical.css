@@ -2,6 +2,23 @@ a, body, div, footer, h1, h4, header, html, i, li, nav, section, span, ul{ margi
  footer, header, nav, section{ display: block; }
 body{ line-height: 1; }
  ul{ list-style: none; }
+.row{ box-sizing: border-box; display: -webkit-box; -webkit-box-flex: 0; -webkit-box-direction: normal; margin-right: -0.5rem; margin-left: -0.5rem; }
+.row{ -webkit-box-orient: horizontal; }
+ .col-xs-12{ box-sizing: border-box; -webkit-box-flex: 0; padding-right: 0.5rem; padding-left: 0.5rem; }
+.col-xs-12{ max-width: 100%; }
+.middle-xs{ -webkit-box-align: center; }
+@media only screen and (min-width: 48em){
+.container{ width: 49rem; }
+ .col-sm-4, .col-sm-8{ box-sizing: border-box; -webkit-box-flex: 0; padding-right: 0.5rem; padding-left: 0.5rem; }
+.col-sm-4{ max-width: 33.33333333%; }
+.col-sm-8{ max-width: 66.66666667%; }
+}
+@media only screen and (min-width: 64em){
+.container{ width: 65rem; }
+}
+@media only screen and (min-width: 75em){
+.container{ width: 76rem; }
+}
 @media (min-width: 0){
 .vp-xs-top-6{ padding-top: 6rem; }
 }

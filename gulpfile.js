@@ -14,7 +14,7 @@ var fs = require('fs');
 var tmpDir = require('os').tmpdir();
 
 gulp.task('criticalcss', function() {
-    var cssUrl = 'https://young-retreat-83841.herokuapp.com/assets/dist/css/app.min.css';
+    var cssUrl = 'http://nickdanieldavidson.com/assets/dist/css/app.min.css';
     var cssPath = path.join( tmpDir, 'critical.css' );
     request(cssUrl).pipe(fs.createWriteStream(cssPath)).on('close', function() {
         criticalcss.getRules(cssPath, function(err, output) {
