@@ -54,7 +54,7 @@ main {
             border-radius: 25px;
             overflow: hidden;
             transform: translate(-50%, -50%);
-            transition: 0.3s 2s;
+            transition: opacity 0.3s 2s;
             .flex-grid-loaded.main-styles-loaded & {
                 opacity: 0.7;
             }

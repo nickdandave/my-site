@@ -2156,8 +2156,8 @@ main {
   overflow: hidden;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-transition: 0.3s 2s;
-  transition: 0.3s 2s; }
+  -webkit-transition: opacity 0.3s 2s;
+  transition: opacity 0.3s 2s; }
   .flex-grid-loaded.main-styles-loaded .intro__image--container {
     opacity: 0.7; }
 
