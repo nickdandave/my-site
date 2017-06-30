@@ -91,7 +91,7 @@
 <section id="about" class="background bg-white">
     <div class="container vp-xs-top-3 vp-xs-bottom-6">
         <div class="row">
-            <div class="col-xs-10 vp-xs-bottom-3 text-center">
+            <div class="col-xs-10 col-sm-12 vp-xs-bottom-3 text-center">
                 <h2>A bit of background</h2>
             </div>
             <div class="background__story col-xs-10 col-sm-7 vp-xs-top-2 vp-xs-bottom-2">
