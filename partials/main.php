@@ -63,7 +63,7 @@
                     'description' => 'The Camp House is not only one of Chattanooga&rsquo;s finest coffee shops, but also an important community meeting place, event venue, and home to The Mission Chattanooga Anglican church.'
                 )
             ); ?>
-            <div class="portfolio__grid col-xs-10">
+            <div class="portfolio__grid col-xs-10 col-sm-12">
                 <div class="row">
                     <?php foreach ($projects as $project) : ?>
                         <div class="col-xs-12 col-sm-6 vp-xs-bottom-4">

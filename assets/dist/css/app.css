@@ -2154,6 +2154,8 @@ main {
   opacity: 0;
   border-radius: 25px;
   overflow: hidden;
+  -webkit-transform: none;
+          transform: none;
   -webkit-transition: opacity 0.5s 1s;
   transition: opacity 0.5s 1s; }
   @media (min-width: 48em) {

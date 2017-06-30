@@ -53,6 +53,7 @@ main {
             opacity: 0;
             border-radius: 25px;
             overflow: hidden;
+            transform: none;
             transition: opacity 0.5s 1s;
             @include breakpoint(sm) {
                 top: 50%;
