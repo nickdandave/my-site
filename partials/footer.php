@@ -2,22 +2,22 @@
 <section class="contact vp-xs-top-6 vp-xs-bottom-6">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 vp-xs-bottom-3">
+            <div class="col-xs-10 vp-xs-bottom-3">
                 <h3>Want to know more?</h3>
             </div>
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-10 col-sm-4">
                 <h3 class="vp-xs-bottom-1">Drop me a line.</h3>
                 <p>
                     <a href="mailto:nick.dan.davidson@gmail.com" class="inline-link">nick.dan.davidson@gmail.com</a>
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-4 vp-xs-top-3 vp-sm-top-0">
+            <div class="col-xs-10 col-sm-4 vp-xs-top-3 vp-sm-top-0">
                 <h3 class="vp-xs-bottom-1">Or give me a call.</h3>
                 <p>
                     <a href="tel:7316086326" class="inline-link">731.608.6326</a>
                 </p>
             </div>
-            <div class=" contact__links col-xs-12 col-sm-4 vp-xs-top-3 vp-sm-top-0">
+            <div class=" contact__links col-xs-10 col-sm-4 vp-xs-top-3 vp-sm-top-0">
                 <a href="https://www.linkedin.com/in/nickdandavidson" target="_blank" class="contact__linkedin">
                     <i class="fa fa-linkedin"></i>
                 </a>
@@ -31,7 +31,7 @@
 <section class="colophon">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 vp-xs-top-1 vp-xs-bottom-1">
+            <div class="col-xs-10 vp-xs-top-1 vp-xs-bottom-1">
                 <?php $now = new DateTime("now", new DateTimeZone("UTC")); ?>
                 <p class="mb-0">&copy; <?php echo $now->format("Y"); ?> Nick Davidson</p>
             </div>

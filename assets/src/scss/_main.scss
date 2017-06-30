@@ -44,17 +44,23 @@ main {
     &__image {
         &--container {
             position: absolute;
-            top: 50%;
-            left: 60%;
+            top: 65%;
+            left: 5%;
             z-index: 0;
-            width: 45vw;
+            width: 67vw;
             height: 0;
-            padding-bottom: calc(45vw * 0.75);
+            padding-bottom: calc(67vw * 0.75);
             opacity: 0;
             border-radius: 25px;
             overflow: hidden;
-            transform: translate(-50%, -50%);
             transition: opacity 0.5s 1s;
+            @include breakpoint(sm) {
+                top: 50%;
+                left: 60%;
+                width: 45vw;
+                padding-bottom: calc(45vw * 0.75);
+                transform: translate(-50%, -50%);
+            }
             .flex-grid-loaded.main-styles-loaded & {
                 opacity: 0.7;
             }
@@ -95,10 +101,13 @@ main {
         }
     }
     &__card {
-        width: 90%;
+        width: 100%;
         border: 1px solid fade-out($gray-dark, 0.9);
         border-radius: 2px;
         transition: 0.3s;
+        @include breakpoint(sm) {
+            width: 90%;
+        }
         &:hover {
             box-shadow: 1px 1px 2px 1px fade-out($blue, 0.9);
             transform: translateY(-3px);
@@ -122,16 +131,27 @@ main {
     }
     &__image {
         position: relative;
+        height: 200px;
         opacity: 0;
+        transform: translateX(8px);
         transition: 0.5s;
+        @include breakpoint(sm) {
+            height: auto;
+        }
         &.shown {
             opacity: 0.2;
         }
         &:nth-of-type(odd) {
-            transform: translateX(5vw);
+            @include breakpoint(sm) {
+                transform: translateX(5vw);
+            }
         }
         &:nth-of-type(even) {
-            transform: translateX(-5vw);
+            order: 2;
+            @include breakpoint(sm) {
+                order: 0;
+                transform: translateX(-5vw);
+            }
         }
     }
 }
