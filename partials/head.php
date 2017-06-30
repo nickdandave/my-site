@@ -19,7 +19,7 @@
     <?php include("partials/loadcss.php"); ?>
     <script>
         loadCSS("https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i|Source+Sans+Pro:400,600,700");
-        loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+        loadCSS("/assets/vendor/font-awesome-4.7.0/css/font-awesome.min.css");
     </script>
 
     <?php if ($_COOKIE['csscached']) : ?>

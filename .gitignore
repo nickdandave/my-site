@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
 vendor/
+!assets/vendor
 libphp7.so
 libphp5.so
