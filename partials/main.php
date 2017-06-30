@@ -100,7 +100,7 @@
                 <p>
                     During my master&rsquo;s, I got hooked on code and took as many online courses as I could, including Udacity&rsquo;s <a href="https://www.udacity.com/course/web-development--cs253" target="_blank" class="inline-link">Web Development</a> with Reddit cofounder Steve Huffman.
                 </p>
-                <p>Eventually, I enrolled in and completed Udacity&rsquo;s <a href="#" target="_blank" class="inline-link">Front-End Web Developer Nanodegree</a>.</p>
+                <p>Eventually, I enrolled in and completed Udacity&rsquo;s <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank" class="inline-link">Front-End Web Developer Nanodegree</a>.</p>
             </div>
             <div class="background__image col-xs-9 col-sm-5">
                 <div class="bg-img" style="background-image: url('/assets/dist/img/principal-horn.jpg');"></div>
