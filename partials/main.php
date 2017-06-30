@@ -14,7 +14,7 @@
 <section id="work" class="portfolio bg-white">
     <div class="container vp-xs-top-3 vp-xs-bottom-3">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 vp-xs-bottom-6">
+            <div class="col-xs-12 col-sm-8 col-md-4 vp-xs-bottom-6">
                 <h2 class="vp-xs-bottom-1">My Work</h2>
                 <p>As a Front-End Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, I have been either lead or supporting developer on more than 30 projects. In an agile environment of strategists, designers, and developers, I have used a (multidimensional) array of technologies &mdash; like PHP, JavaScript, Node, Sass &mdash; to serve our clients&rsquo; needs.</p>
                 <p>Here are some of my favorite projects:</p>
