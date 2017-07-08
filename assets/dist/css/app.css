@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -2283,3 +2284,54 @@ footer {
 
 .contact__github:hover {
   color: #4078c0; }
+
+.resume__main .container {
+  max-width: 900px; }
+
+.resume__entry:not(:last-of-type) {
+  margin-bottom: 3rem; }
+
+.resume__entry--header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem; }
+
+.resume__entry--title {
+  margin-right: 1rem; }
+
+.resume__skills--list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 2.5rem; }
+  .resume__skills--list li {
+    position: relative;
+    width: 100%;
+    line-height: 2; }
+    @media (min-width: 48em) {
+      .resume__skills--list li {
+        width: 50%; } }
+    @media (min-width: 64em) {
+      .resume__skills--list li {
+        width: calc(100% / 3); } }
+    .resume__skills--list li::before {
+      position: absolute;
+      top: 50%;
+      left: -1.5rem;
+      content: "–";
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }

@@ -189,3 +189,49 @@ footer {
         }
     }
 }
+.resume {
+    &__main {
+        .container {
+            max-width: 900px;
+        }
+    }
+    &__entry {
+        &:not(:last-of-type) {
+            margin-bottom: 3rem;
+        }
+        &--header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        &--title {
+            margin-right: 1rem;
+        }
+    }
+    &__skills {
+        &--list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-left: 2.5rem;
+            li {
+                position: relative;
+                width: 100%;
+                line-height: 2;
+                @include breakpoint(sm) {
+                    width: 50%;
+                }
+                @include breakpoint(md) {
+                    width: calc(100% / 3);
+                }
+                &::before {
+                    position: absolute;
+                    top: 50%;
+                    left: -1.5rem;
+                    content: "–";
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+}

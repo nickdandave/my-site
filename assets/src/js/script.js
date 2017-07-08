@@ -12,7 +12,7 @@
         },
         scrollToSection: {
             test() {
-                return true;
+                return $(".page--home").length;
             },
             run() {
                 const triggers = $(".main-nav__link");
@@ -32,7 +32,7 @@
             },
             run() {
                 ndd.spaceFooter.makeSpace();
-                
+
                 $(window).on("resize", function() {
                     ndd.spaceFooter.makeSpace();
                 });
@@ -45,13 +45,13 @@
         },
         fadeInGrid: {
             test() {
-                return true;
+                return $(".page--home").length;
             },
             run() {
                 const $window = $(window),
                       $document = $(document),
-                      workOffset = $("#work").offset().top,
-                      aboutOffset = $("#about").offset().top;
+                      workOffset = $("#work").offset().top - 32,
+                      aboutOffset = $("#about").offset().top - 32;
 
                 $window.on("scroll", function() {
                     let scrollPos = $document.scrollTop();

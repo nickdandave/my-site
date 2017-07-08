@@ -14,7 +14,7 @@
         },
         scrollToSection: {
             test: function test() {
-                return true;
+                return $(".page--home").length;
             },
             run: function run() {
                 var triggers = $(".main-nav__link");
@@ -47,13 +47,13 @@
         },
         fadeInGrid: {
             test: function test() {
-                return true;
+                return $(".page--home").length;
             },
             run: function run() {
                 var $window = $(window),
                     $document = $(document),
-                    workOffset = $("#work").offset().top,
-                    aboutOffset = $("#about").offset().top;
+                    workOffset = $("#work").offset().top - 32,
+                    aboutOffset = $("#about").offset().top - 32;
 
                 $window.on("scroll", function () {
                     var scrollPos = $document.scrollTop();

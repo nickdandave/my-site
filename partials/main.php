@@ -16,8 +16,8 @@
         <div class="row">
             <div class="col-xs-10 col-sm-8 vp-xs-bottom-6">
                 <h2 class="vp-xs-bottom-1">My Work</h2>
-                <p>As a Front-End Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, I have been either lead or supporting developer on more than 30 projects. In an agile environment of strategists, designers, and developers, I have used a (multidimensional) array of technologies &mdash; like PHP, JavaScript, Node, Sass &mdash; to serve our clients&rsquo; needs.</p>
-                <p>Here are some of my favorite projects:</p>
+                <p>As a Web Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, I have been either lead or supporting developer on more than 30 projects. In an agile environment of strategists, designers, and developers, I have used a (multidimensional) array of technologies &mdash; like PHP, JavaScript, Node, Sass &mdash; to serve our clients&rsquo; needs. For more detail, feel free to check out my <a href="/resume.php" target="_blank" class="inline-link">resume.</a></p>
+                <p>Here are some of my favorite Whiteboard projects:</p>
             </div>
             <?php $projects = array(
                 array(
@@ -43,6 +43,12 @@
                     'link' => 'http://whiteboard.is/insights/black-dot-focus-overcoming-three-causes-error/',
                     'image' => '/assets/dist/img/whiteboard.jpg',
                     'description' => 'Whiteboard is a design and development firm who is &ldquo;helping organizations thrive in our digital age.&rdquo;'
+                ),
+                array(
+                    'title' => 'StuRents',
+                    'link' => 'https://sturents.com/',
+                    'image' => '/assets/dist/img/sturents.jpg',
+                    'description' => 'StuRents helps students in the UK customize their search for the perfect housing accommodations during their studies.'
                 ),
                 array(
                     'title' => 'WinShape Camps',
@@ -96,9 +102,9 @@
             </div>
             <div class="background__story col-xs-10 col-sm-7 vp-xs-top-2 vp-xs-bottom-2">
                 <h3 class="vp-xs-bottom-1">From Music City...</h3>
-                <p>I started my career as a freelance musician, having earned my Bachelor of Music from Vanderbilt University and my Master of Music Performance from Cleveland (Ohio) State University.</p>
+                <p>I started my career as a professional musician, having earned my Bachelor of Music from Vanderbilt University and my Master of Music Performance from Cleveland (Ohio) State University.</p>
                 <p>
-                    During my master&rsquo;s, I got hooked on code and took as many online courses as I could, including Udacity&rsquo;s <a href="https://www.udacity.com/course/web-development--cs253" target="_blank" class="inline-link">Web Development</a> with Reddit cofounder Steve Huffman.
+                    During my master&rsquo;s, I got hooked on code and took as many online courses as I could, including Udacity&rsquo;s <a href="https://www.udacity.com/course/web-development--cs253" target="_blank" class="inline-link">Web Development</a> with Reddit cofounder Steve Huffman and Harvard's ever-popular <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank" class="inline-link">CS50x: Introduction to Computer Science</a>.
                 </p>
                 <p>Eventually, I enrolled in and completed Udacity&rsquo;s <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank" class="inline-link">Front-End Web Developer Nanodegree</a>.</p>
             </div>
@@ -112,7 +118,7 @@
                 <h3 class="vp-xs-bottom-1">...to Gig City</h3>
                 <p>I then joined the technology team as a Front-End Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, a design and development firm based in Chattanooga, TN.</p>
                 <p>Here, I have had the immense pleasure to work with some of the agency world's brightest talents, serving clients who do meaningful, impactful work in their communities.</p>
-                <p>Outside of programming, you can catch me singing baritone with the <a href="https://www.nashvillesymphony.org/" target="_blank" class="inline-link">Nashville Symphony Orchestra Chorus</a> and <a href="https://www.operatn.org/" target="_blank" class="inline-link">Opera Tennessee</a> here in Chattanooga as well as sharpening my horn chops as a freelance player and teacher in the Chattanooga area.</p>
+                <p>Outside of programming, you can catch me singing baritone with the <a href="https://www.nashvillesymphony.org/" target="_blank" class="inline-link">Nashville Symphony Orchestra Chorus</a> and <a href="https://www.operatn.org/" target="_blank" class="inline-link">Opera Tennessee</a> here in Chattanooga as well as sharpening my horn chops as a freelance player in the Chattanooga area.</p>
             </div>
         </div>
     </div>
