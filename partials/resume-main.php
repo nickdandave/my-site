@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col-xs-12 vp-xs-top-3 vp-xs-bottom-3">
                 <h2 class="vm-xs-bottom-2">Skills</h2>
-                <h5 class="vm-xs-bottom-1">What I Know Now</h5>
+                <h5 class="vm-xs-bottom-1">Current Working Stack</h5>
                 <ul class="resume__skills--list vm-xs-bottom-2">
                     <li>JavaScript</li>
                     <li>PHP + Wordpress</li>
@@ -99,7 +99,7 @@
                     <li>Sketch / InVision</li>
                     <li>SEO + Page Speed Optimization</li>
                 </ul>
-                <h5 class="vm-xs-bottom-1">What I'm Excited to Be Working On</h5>
+                <h5 class="vm-xs-bottom-1">Currently Learning Stack</h5>
                 <ul class="resume__skills--list">
                     <li>Elixir + Phoenix</li>
                     <li>AI Tech and Algorithms</li>
