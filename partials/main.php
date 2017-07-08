@@ -17,7 +17,7 @@
             <div class="col-xs-10 col-sm-8 vp-xs-bottom-6">
                 <h2 class="vp-xs-bottom-1">My Work</h2>
                 <p>As a Web Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, I have been either lead or supporting developer on more than 30 projects. In an agile environment of strategists, designers, and developers, I have used a (multidimensional) array of technologies &mdash; like PHP, JavaScript, Node, Sass &mdash; to serve our clients&rsquo; needs. For more detail, feel free to check out my <a href="/resume.php" target="_blank" class="inline-link">resume.</a></p>
-                <p>Here are some of my favorite Whiteboard projects:</p>
+                <p>Here are some of my favorite recent projects:</p>
             </div>
             <?php $projects = array(
                 array(
