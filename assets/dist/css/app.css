@@ -2305,6 +2305,12 @@ footer {
 .resume__entry--title {
   margin-right: 1rem; }
 
+.resume__entry--copy {
+  width: 100%; }
+  @media (min-width: 64em) {
+    .resume__entry--copy {
+      width: 75%; } }
+
 .resume__skills--list {
   display: -webkit-box;
   display: -webkit-flex;

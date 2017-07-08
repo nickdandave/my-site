@@ -207,6 +207,12 @@ footer {
         &--title {
             margin-right: 1rem;
         }
+        &--copy {
+            width: 100%;
+            @include breakpoint(md) {
+                width: 75%;
+            }
+        }
     }
     &__skills {
         &--list {

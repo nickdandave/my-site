@@ -99,7 +99,7 @@
                     <li>Sketch / InVision</li>
                     <li>SEO + Page Speed Optimization</li>
                 </ul>
-                <h5 class="vm-xs-bottom-1">Currently Learning Stack</h5>
+                <h5 class="vm-xs-bottom-1">Current Learning Stack</h5>
                 <ul class="resume__skills--list">
                     <li>Elixir + Phoenix</li>
                     <li>AI Tech and Algorithms</li>
