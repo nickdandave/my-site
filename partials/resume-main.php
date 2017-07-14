@@ -92,7 +92,7 @@
                     <li>Python + Django</li>
                     <li>SCSS / LESS</li>
                     <li>Git + GitHub</li>
-                    <li>SQL</li>
+                    <li>MySQL</li>
                     <li>Gulp / Webpack</li>
                     <li>Heroku / Digital Ocean</li>
                     <li>Sketch / InVision</li>
