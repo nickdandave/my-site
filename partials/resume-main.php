@@ -94,7 +94,7 @@
                     <li>Git + GitHub</li>
                     <li>MySQL</li>
                     <li>Gulp / Webpack</li>
-                    <li>Heroku / Digital Ocean</li>
+                    <li>Heroku / Digital Ocean / Amazon AWS</li>
                     <li>Sketch / InVision</li>
                     <li>SEO + Page Speed Optimization</li>
                 </ul>
