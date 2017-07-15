@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-xs-10 col-sm-8 vp-xs-bottom-6">
                 <h2 class="vp-xs-bottom-1">My Work</h2>
-                <p>As a Web Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, I have been either lead or supporting developer on more than 30 projects. In an agile environment of strategists, designers, and developers, I have used a (multidimensional) array of technologies &mdash; like PHP, JavaScript, Node, Sass &mdash; to serve our clients&rsquo; needs. For more detail, feel free to check out my <a href="/resume.php/" target="_blank" class="inline-link">resume.</a></p>
+                <p>As a Web Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, I have been either lead or supporting developer on more than 30 projects. In an agile environment of strategists, designers, and developers, I have used an array of technologies &mdash; like PHP, JavaScript, Node, Sass &mdash; to serve our clients&rsquo; needs. For more detail, feel free to check out my <a href="/resume.php/" target="_blank" class="inline-link">resume.</a></p>
                 <p>Here are some of my favorite recent projects:</p>
             </div>
             <?php $projects = array(
@@ -118,7 +118,7 @@
                 <h3 class="vp-xs-bottom-1">...to Gig City</h3>
                 <p>I then joined the technology team as a Front-End Developer at <a href="http://whiteboard.is" target="_blank" class="inline-link">Whiteboard</a>, a design and development firm based in Chattanooga, TN.</p>
                 <p>Here, I have had the immense pleasure to work with some of the agency world's brightest talents, serving clients who do meaningful, impactful work in their communities.</p>
-                <p>Outside of programming, you can catch me singing baritone with the <a href="https://www.nashvillesymphony.org/" target="_blank" class="inline-link">Nashville Symphony Orchestra Chorus</a> and <a href="https://www.operatn.org/" target="_blank" class="inline-link">Opera Tennessee</a> here in Chattanooga as well as sharpening my horn chops as a freelance player in the Chattanooga area.</p>
+                <p>Outside of programming, you can catch me singing baritone with the <a href="https://www.nashvillesymphony.org/" target="_blank" class="inline-link">Nashville Symphony Orchestra Chorus</a> and <a href="https://www.operatn.org/" target="_blank" class="inline-link">Opera Tennessee</a> here in Chattanooga as well as sharpening my horn chops as a freelance player in the area.</p>
             </div>
         </div>
     </div>
